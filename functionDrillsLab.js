@@ -59,6 +59,12 @@ printName(`Redginald`)
 
 //CODE HERE
 
+function greeting(name) {
+  var actualName = String(name)
+  return console.log(`Hello, ${actualName}.`)
+  
+}
+greeting(`Rorik`)
 
 ////////////////// PROBLEM 5 ////////////////////
 
