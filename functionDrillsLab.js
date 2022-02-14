@@ -13,6 +13,10 @@
 
 //CODE HERE
 
+function helloWorld() {
+  return console.log(`Hello, World!`)
+}
+helloWorld()
 
 ////////////////// PROBLEM 2 ////////////////////
 
