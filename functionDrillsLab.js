@@ -192,6 +192,20 @@ var nameGreeting = nameCheck('Bartholomew')
 
 //CODE HERE
 
+function favColorFinder(color) {
+  if(color === `red`) {
+    return 'red is a great color'
+  } else if(color === `green`) {
+    return 'green is a solid favorite color'
+  } else if(color === `black`) {
+    return 'black is so trendy'
+  } else {
+    return 'you need to evaluate your favorite color choice'
+  }
+}
+
+let colorRating = favColorFinder('magenta')
+//console.log(colorRating)
 
 ////////////////// PROBLEM 12 ////////////////////
 let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
