@@ -79,6 +79,10 @@ greeting(`Rorik`)
 
 //CODE HERE
 
+const compareNums = (num1,num2)=> {
+  return(num1 > num2? console.log(num1): console.log(num2));
+}
+compareNums(45,13)
 
 ////////////////// PROBLEM 6 ////////////////////
 /*
