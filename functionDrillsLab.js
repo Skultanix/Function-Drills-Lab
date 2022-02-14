@@ -94,6 +94,12 @@ compareNums(45,13)
 
 //CODE HERE
 
+const add = function(num1,num2) {
+  var actuNum1 = parseInt(num1);
+  var actuNum2 = parseInt(num2);
+  return console.log(actuNum1 + actuNum2)
+}
+add('11 tacos', '75 baboons')
 
 ////////////////// PROBLEM 7 ////////////////////
 
