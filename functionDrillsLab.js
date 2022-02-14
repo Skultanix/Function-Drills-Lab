@@ -270,6 +270,7 @@ let bigOrSmallArray = [1,101, 102, 2, 103, 4, 5, 6, 107]
 //CODE HERE
 
 
+
 ////////////////// PROBLEM 16 ////////////////////
 let contestants = ['Katniss', 'Peeta', 'Fox-face', 'Glimmer', 'Cato', 'Rue', 'Thresh', 'Clove', 'Marvel']
 let loser = 'Glimmer'
@@ -280,6 +281,15 @@ let loser = 'Glimmer'
 
 //CODE HERE
 
+function bigOrSmall(arr) {
+  let answers = []
+  for(i = 0; i < arr.length; i++) {
+    arr[i] > 100? answers.push('big'):answers.push('small')
+  }
+  return answers
+}
+let arrayEvaluator = bigOrSmall(bigOrSmallArray)
+//console.log(arrayEvaluator)
 
 ////////////////// PROBLEM 17 ////////////////////
 let sampleString = "Hi, my name is Kylo."
