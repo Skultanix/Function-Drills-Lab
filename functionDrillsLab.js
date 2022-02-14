@@ -217,6 +217,13 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
 
 //CODE HERE
 
+function printAllNames(namesList) {
+  for(i = 0; i < namesArr.length; i++) {
+      let spefName = namesArr[i]
+      console.log(spefName)
+    }
+  }
+  printAllNames(namesArr)
 
 ////////////////// PROBLEM 13 ////////////////////
 /*
