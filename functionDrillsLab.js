@@ -140,7 +140,7 @@ const exclaimTwo = str => {
   Brownie points if you use a template string
 */
 const exclaimThree = str => {console.log(`${str.toUpperCase()}!!!`)}
-exclaimThree('cowabunga dudes')
+// exclaimThree('cowabunga')
 
 
 ////////////////// PROBLEM 9 ////////////////////
@@ -170,6 +170,15 @@ function exclaimFour(str) {
 
 //CODE HERE
 
+function nameCheck(name) {
+  if(name === `Steven`) {
+    return 'What is up Steven?'
+  }else if( name === `Bryan`) {
+    return `Hey Bryan!`
+  } else {return `Cool name, ${name}.`}
+  }
+var nameGreeting = nameCheck('Bartholomew')
+// console.log(nameGreeting)
 
 ////////////////// PROBLEM 11 ////////////////////
 /*
