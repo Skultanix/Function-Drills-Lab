@@ -235,6 +235,11 @@ function printAllNames(namesList) {
 
 //CODE HERE
 
+function thatsOdd(aNumber) {
+  return(aNumber % 2 === 0? `That's not odd!`: `That is odd indeed!`)
+}
+let oddChecker =thatsOdd(177)
+//console.log(oddChecker)
 
 ////////////////// PROBLEM 14 ////////////////////
 
