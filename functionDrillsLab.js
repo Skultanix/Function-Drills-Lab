@@ -390,16 +390,18 @@ let sampleArray = [0,1,2,3,4,7,5,6,8,9]
 //CODE HERE
 
 function ascension(numArray) {
-  let compareValue = numArray.length - 1
-  for(i = 0 ; i < numArray.length ; i++) {
-    if(numArray[i] < numArray[i + 1] && i < compareValue) {
-      return true
-    } else {
+  let compareValue = numArray[0]
+  for(i = 1 ; i < numArray.length - 1 ; i++) {
+    if(numArray[i] <= compareValue) {
       return false
+    } else { 
+      compareValue = numArray[i]
     }
   }
+      return true
 }
 let arrayIsAscending = ascension(sampleArray)
+console.log(arrayIsAscending
 // console.log(arrayIsAscending)
 
 
