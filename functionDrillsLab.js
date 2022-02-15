@@ -307,6 +307,13 @@ let sampleString = "Hi, my name is Kylo."
 
 //CODE HERE
 
+let sampleString = "Hi, my name is Kylo."
+
+const capString = (aString) => {
+  return aString.toUpperCase()
+}
+let allCaps = capString(sampleString)
+// console.log(`${allCaps}`)
 
 ////////////////// PROBLEM 18 ////////////////////
 /*
