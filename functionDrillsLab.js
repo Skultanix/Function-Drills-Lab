@@ -367,6 +367,17 @@ let totalFrogs = potterWorldScam(totalGold)
 
 //CODE HERE
 
+function potterWorldScam2(gold) {
+  let totalChocoFrogs = gold / 3
+ if(totalChocoFrogs % 3 === 0) {
+   return totalChocoFrogs
+ } else {return Math.floor(totalChocoFrogs)}
+}
+
+let totalGold = 44
+let totalFrogs2 = potterWorldScam2(totalGold)
+
+//console.log(totalFrogs2)
 
 ////////////////// PROBLEM 21 ////////////////////
 let sampleArray = [0,1,2,3,4,7,5,6,8,9]
